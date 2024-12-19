@@ -1,0 +1,115 @@
+{
+  "navigations": [
+    {
+      "type": "regular",
+      "name": "Homepage",
+      "action": "/",
+      "dropdown_links": [],
+      "icon": "FaHome",
+      "icon_library": "fa"
+    },
+    {
+      "type": "regular",
+      "name": "New Arrivals",
+      "action": "new_arrivals",
+      "dropdown_links": [],
+      "icon": "FaAward",
+      "icon_library": "fa"
+    },
+    {
+      "type": "regular",
+      "name": "On Sale",
+      "action": "sales",
+      "dropdown_links": [],
+      "icon": "FaPercent",
+      "icon_library": "fa"
+    },
+    {
+      "type": "regular",
+      "name": "Most Wanted",
+      "action": "most_wanted",
+      "dropdown_links": [],
+      "icon": "FaHeart",
+      "icon_library": "fa"
+    },
+    {
+      "type": "dropdown",
+      "name": "Accessories",
+      "action": "none",
+      "dropdown_links": [
+        { "name": "Hat", "action": "etalase/jeans" },
+        { "name": "Carrier", "action": "etalase/pants" },
+        { "name": "Backpack", "action": "etalase/pants" },
+        { "name": "Casual Bag", "action": "etalase/pants" }
+      ],
+      "icon": "FaRedhat",
+      "icon_library": "fa"
+    },
+    {
+      "type": "dropdown",
+      "name": "Tops & Outers",
+      "action": "none",
+      "dropdown_links": [
+        { "name": "T-Shirt", "action": "etalase/t_shirts" },
+        { "name": "Shirts", "action": "etalase/shirts" },
+        { "name": "Blazzers", "action": "etalase/blazzers" },
+        { "name": "Jackets", "action": "etalase/jackets" }
+      ],
+      "icon": "IoShirtSharp",
+      "icon_library": "io5"
+    },
+    {
+      "type": "dropdown",
+      "name": "Bottoms",
+      "action": "none",
+      "dropdown_links": [
+        { "name": "Jeans", "action": "etalase/jeans" },
+        { "name": "Pants", "action": "etalase/pants" },
+        { "name": "Shorts", "action": "etalase/shorts" },
+        { "name": "Shoes", "action": "etalase/shoes" }
+      ],
+      "icon": "GiArmoredPants",
+      "icon_library": "gi"
+    },
+    {
+      "type": "dropdown",
+      "name": "Categories",
+      "action": "none",
+      "dropdown_links": [
+        { "name": "Everyday", "action": "categories/everyday" },
+        { "name": "Casual", "action": "categories/casual" },
+        { "name": "Simple", "action": "categories/simple" },
+        { "name": "Modest", "action": "categories/modest" },
+        { "name": "Hiking Wear", "action": "categories/adventure" }
+      ],
+      "icon": "BiCategory",
+      "icon_library": "bi"
+    }
+  ],
+  "about_links": [
+    {
+      "type": "regular",
+      "name": "About Belisarius",
+      "action": "/about-us",
+      "dropdown_links": [],
+      "icon": "GiCrownedSkull",
+      "icon_library": "gi"
+    },
+    {
+      "type": "regular",
+      "name": "Our Contacts",
+      "action": "/contacts",
+      "dropdown_links": [],
+      "icon": "FaPhoneAlt",
+      "icon_library": "fa"
+    },
+    {
+      "type": "regular",
+      "name": "Our Marketplaces",
+      "action": "/contacts",
+      "dropdown_links": [],
+      "icon": "FaShop",
+      "icon_library": "fa6"
+    }
+  ]
+}
