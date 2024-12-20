@@ -5,8 +5,8 @@ import Logo_Horizontal from "../../Logo/Logo_Horizontal";
 
 const NavBar_Fixed = ({ button_class, root_path, offCanvasHandler }) => {
   return (
-    <nav className="absolute top-0 left-0 right-0 z-10 ">
-      <div className="flex justify-between p-4 text-white md:px-11">
+    <nav className="absolute top-0 left-0 right-0 z-10 md:static ">
+      <div className="flex justify-between p-4 text-white md:text-black md:px-11">
         {/* Start */}
         <div className="flex items-center">
           <button className={button_class} onClick={offCanvasHandler}>
@@ -17,7 +17,7 @@ const NavBar_Fixed = ({ button_class, root_path, offCanvasHandler }) => {
         <div>
           <a href={root_path}>
             <Logo_Horizontal
-              className="w-60 fill-white"
+              className="w-60 fill-white md:fill-black"
               width="380"
               height="65"
               vw="630"
