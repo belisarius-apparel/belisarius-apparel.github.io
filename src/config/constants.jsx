@@ -21,4 +21,4 @@ export const app_ogTitle = "Belisarius Official Website";
 export const app_ogImage = "https://i.ibb.co.com/0QgB4q1/Brand-Cover.png";
 
 // Maintenance
-export const maintenance = false;
+export const maintenance = true;
