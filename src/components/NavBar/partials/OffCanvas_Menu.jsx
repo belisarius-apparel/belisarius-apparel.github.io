@@ -1,6 +1,6 @@
 import React from "react";
 import OffCanvas_NavLink from "./OffCanvas_NavLink";
-import OffCanvas_DropDown from "./OffCanvas_Dropdown";
+import OffCanvas_DropDown from "./OffCanvas_DropDown";
 import OffCanvas_Socials from "./OffCanvas_Socials";
 import navigations from "../../../lib/data/navigation.json";
 
